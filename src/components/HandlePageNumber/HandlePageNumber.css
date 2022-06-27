@@ -1,0 +1,60 @@
+.numberContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: auto;
+    text-align: center;
+    margin-top: 4rem;
+    margin-bottom: 5rem;
+}
+
+.RectangleNumber {
+    width: 32px;
+    height: 32px;
+    margin: 0 8px 0 0;
+    padding: 9px;
+    border-radius: 6px;
+    border: solid 1px #d9d9d9;
+}
+
+.RectangleNumber-active {
+    background-color: #1890ff;
+}
+
+.RectangleNumber-inactive {
+    background-color: #fff;
+}
+
+.numbers {
+    width: 100%;
+    height: 100%;
+    font-size: 1.2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Roboto', sans-serif;
+    /* font-size: 1.2; */
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.57;
+    letter-spacing: normal;
+
+    cursor: pointer;
+}
+
+.numbers-active {
+    color: #fff;
+}
+
+.numbers-inactive {
+    color: rgba(0, 0, 0, 0.65);
+}
+
+@media only screen and (max-width: 650px) {
+    .numberContainer {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+    }
+}

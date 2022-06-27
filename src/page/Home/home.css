@@ -1,0 +1,105 @@
+.post-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+
+    margin: 2rem 0rem 0rem 4rem;
+}
+
+.post-info {
+    min-width: 45%;
+    /* min-width: 45%; */
+    /* width: 550px; */
+    height: 90px;
+    /* margin: 0rem 1rem 1rem 1rem; */
+    /* margin: 18px 40px 30px 150px; */
+    margin: 1rem 2rem 1rem 0rem;
+    /* margin-left: 4rem; */
+    /* padding: 0 0 0 26px; */
+    /* opacity: 0.8; */
+    border-radius: 6px;
+    border: solid 1px #979797;
+    background-color: #fff;
+
+    display: flex;
+}
+
+.post-info:hover {
+    opacity: 0.5;
+}
+
+.post-info-data {
+    width: 80%;
+    height: 100%;
+    border-radius: 6px 0px 0px 6px;
+    /* background-color: black; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    padding-left: 2rem;
+    cursor: pointer;
+}
+
+.post-info-text {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.post-info-text img {
+    margin-right: .5rem;
+}
+
+.post-info-text span {
+    /* width: 107px;
+    height: 13px; */
+    /* margin: 2px 309px 7px 8px; */
+    font-family: 'Roboto', sans-serif;
+    font-size: 11px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #767676;
+}
+
+.post-info-data .history-title {
+    /* width: 440px;
+    height: 20px; */
+    margin: 6px 0 0;
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.43;
+    letter-spacing: 0.25px;
+    color: #6b6b6b;
+}
+
+.post-info-faves {
+    width: 20%;
+    height: 100%;
+
+    /* opacity: 0.1; */
+    border-radius: 0px 6px 6px 0px;
+    border: solid 1px #c8c5c547;
+    background-color: #c8c5c547;
+
+    /* background-color: tomato; */
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.post-info-faves img {
+    cursor: pointer;
+}
+
+.final{
+    height: 100px;
+    color: tomato;
+}
