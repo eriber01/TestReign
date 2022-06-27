@@ -155,6 +155,7 @@ export const UseActions = () => {
         } else if (state.favesActive) {
             getData(true)
         }
+        /* eslint-disable */
     }, [state.allActive, state.favesActive, state.pageNumber, state.techSelected])
 
 
